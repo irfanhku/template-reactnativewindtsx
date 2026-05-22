@@ -14,6 +14,8 @@ npm install
 npx expo start
 ```
 
+---
+
 related docs
 
 https://www.nativewind.dev/docs/getting-started/installation

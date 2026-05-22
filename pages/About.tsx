@@ -21,4 +21,4 @@ export default function About() {
       <StatusBar style="auto" />
     </SafeAreaProvider>
   );
-}
+}

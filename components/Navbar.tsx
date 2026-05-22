@@ -8,28 +8,26 @@ const Navbar = () => {
   const isActive = (name: string) => route.name === name;
 
   const linkStyle = (name: string) =>
-    `px-3 py-2 rounded ${isActive(name) ? 'bg-white bg-opacity-20' : ''}`;
+    `px-3 py-2 rounded-md ${isActive(name) ? 'bg-white/20' : ''}`;
 
   return (
-    <View className="flex-row justify-between items-center bg-gradient-to-r from-slate-800 to-gray-900 px-4 py-3 shadow-md">
-      <Pressable onPress={() => navigation.navigate('Home')} style={{ flex: 1 }}>
-        <Text className={
-          `${linkStyle('Home')} text-white text-base font-medium`
-        }>
+    <View
+      className="flex-row items-center justify-between px-4 py-3 shadow-md mt-[80px] bg-black"
+    >
+      <Pressable onPress={() => navigation.navigate('Home')} style={{ flex: 1, alignItems: 'center' }}>
+        <Text className={`${linkStyle('Home')} text-white text-base font-medium`}>
           Home
         </Text>
       </Pressable>
-      <Pressable onPress={() => navigation.navigate('About')} style={{ flex: 1 }}>
-        <Text className={
-          `${linkStyle('About')} text-white text-base font-medium`
-        }>
+
+      <Pressable onPress={() => navigation.navigate('About')} style={{ flex: 1, alignItems: 'center' }}>
+        <Text className={`${linkStyle('About')} text-white text-base font-medium`}>
           About
         </Text>
       </Pressable>
-      <Pressable onPress={() => navigation.navigate('AppPage')} style={{ flex: 1 }}>
-        <Text className={
-          `${linkStyle('AppPage')} text-white text-base font-medium`
-        }>
+
+      <Pressable onPress={() => navigation.navigate('AppPage')} style={{ flex: 1, alignItems: 'center' }}>
+        <Text className={`${linkStyle('AppPage')} text-white text-base font-medium`}>
           AppPage
         </Text>
       </Pressable>
