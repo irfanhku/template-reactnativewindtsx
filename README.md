@@ -10,4 +10,11 @@ npm install
 npx expo start
 ```
 
+related docs
+
+https://www.nativewind.dev/docs/getting-started/installation
+
+https://docs.expo.dev/tutorial/create-your-first-app/
+
+
 
