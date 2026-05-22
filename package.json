@@ -15,7 +15,7 @@
     "@react-navigation/native-stack": "^7.15.1",
     "expo": "^54.0.0",
     "expo-status-bar": "~3.0.8",
-    "nativewind": "latest",
+    "nativewind": "^4.2.4",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-native": "0.81.5",
@@ -34,7 +34,7 @@
     "eslint-config-prettier": "^10.1.2",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.11",
-    "tailwindcss": "^3.4.0",
+    "tailwindcss": "^3.4.19",
     "typescript": "~5.9.2"
   },
   "main": "node_modules/expo/AppEntry.js",
