@@ -1,4 +1,8 @@
-template-reactnativewindtsx
+# template-reactnativewindtsx
+
+(WORK-IN-PROGRESS)
+
+template sederhana react native + nativewind + multipage
 
 ```
 git clone https://github.com/irfanhku/template-reactnativewindtsx.git
