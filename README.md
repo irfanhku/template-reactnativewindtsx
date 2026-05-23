@@ -14,6 +14,22 @@ npm install
 npx expo start
 ```
 
+
+kalau mau edit & ubah git and connect to another repo
+
+```
+cd template-..{press tab aja for quick cari di cmd}
+
+rm -rf .git
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin <new-repo-url>
+git push -u origin main
+
+```
+
 ---
 
 related docs
