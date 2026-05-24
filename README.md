@@ -21,6 +21,9 @@ kalau mau edit & ubah git and connect to another repo
 cd template-..{press tab aja for quick cari di cmd}
 
 rm -rf .git
+or for windows
+rmdir /s /q .git
+
 git init
 git add .
 git commit -m "Initial commit"
