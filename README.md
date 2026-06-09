@@ -22,6 +22,35 @@ npm install
 npx expo start
 ```
 
+fix nanti cara install and build...
+
+```
+
+// optional but useful
+npm install -g expo-cli
+
+// install eas-cli, biar sambung ke expo web
+
+npm install -g eas-cli
+
+eas --version
+
+//
+
+eas login
+
+// edit nama app di app.json, package.json, package-lock.json
+
+eas build:configure
+
+// pilih all-android-ios
+
+eas build -p android --profile preview
+
+// pillhan build keystore dll...
+
+```
+
 
 kalau mau edit & ubah git and connect to another repo
 
