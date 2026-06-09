@@ -2,6 +2,14 @@
 
 (WORK-IN-PROGRESS)
 
+```
+belum install firebase..
+
+npm install firebase
+```
+
+
+
 template sederhana react native + nativewind + multipage
 
 ```
